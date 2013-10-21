@@ -299,7 +299,7 @@ function create_post_type() {
 			'public' => true,
 			'has_archive' => true,
 			'rewrite' => array('slug' => ''),
-			'supports' => array( 'title' )
+			'supports' => array( 'title', 'thumbnail' )
 		);
 
 		$args4 = array(
@@ -310,7 +310,7 @@ function create_post_type() {
 			'public' => true,
 			'has_archive' => true,
 			'rewrite' => array('slug' => ''),
-			'supports' => array( 'title' )
+			'supports' => array( 'title', 'thumbnail' )
 		);
 
 
